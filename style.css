@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f1ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden; /* Remove o scroll vertical */
+}
+
+.container {
+    background: white;
+    width: 92%;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 15px;
+    transform: scale(1.2); /* Aumenta o tamanho do container */
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #f72585;
+    padding: 30px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.logo {
+    width: 150px; /* Aumenta o tamanho do logo */
+    border-radius: 50%;
+    border: #f3eef0 solid;
+    background: white;
+    padding: 10px; /* Aumenta o padding */
+    height: 150px;
+    margin-top: 10px;
+}
+
+/* Nome do perfil */
+h1 {
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    font-weight: bold;
+    margin: 20px 0; /* Aumenta a margem */
+    color: #000;
+
+}
+
+/* Botões */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eaeef1;
+    padding: 18px 22px; /* Aumenta o padding */
+    border-radius: 10px;
+    margin: 15px 20px; /* Aumenta a margem */
+    cursor: pointer;
+    transition: background 0.3s;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background: #e6e6e6;
+}
+
+/* Ícone do botão */
+.button img {
+    width: 32px; /* Aumenta o tamanho do ícone */
+    height: 32px;
+}
+
+/* Ícone "três pontinhos" */
+.more-icon {
+    width: 24px; /* Aumenta o tamanho do ícone */
+    opacity: 0.6;
+}
+
+/* Texto do botão */
+.button span {
+    flex: 1;
+    margin-left: 15px; /* Aumenta a margem */
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    color: #333;
+}
+
+span {
+    justify-items: center;
+}
