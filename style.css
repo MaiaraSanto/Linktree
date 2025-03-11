@@ -97,3 +97,31 @@ h1 {
 span {
     justify-items: center;
 }
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button {
+    animation: fadeIn 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+.button:hover {
+    transform: scale(1.05);
+    background: #f19f9f;
+}
+
+/* Efeito ao clicar */
+.button:active {
+    transform: scale(0.95);
+}
